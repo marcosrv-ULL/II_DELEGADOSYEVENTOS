@@ -10,12 +10,13 @@ Cuando el jugador se aproxima a los cilindros de tipo A, los cilindros de tipo B
 
 Implementar un controlador que mueva el objeto con wasd
 
-https://user-images.githubusercontent.com/45802694/153396190-c6532625-ca1c-476e-880c-367b999659c9.mp4
+https://user-images.githubusercontent.com/45802694/153396449-53fb58b6-b607-4f1c-92dc-65ff43b6caf1.mp4
 
 # Ejercicio 4
 
 Debug.DrawRay
 
 
-https://user-images.githubusercontent.com/45802694/153396449-53fb58b6-b607-4f1c-92dc-65ff43b6caf1.mp4
 
+
+https://user-images.githubusercontent.com/45802694/153396190-c6532625-ca1c-476e-880c-367b999659c9.mp4
