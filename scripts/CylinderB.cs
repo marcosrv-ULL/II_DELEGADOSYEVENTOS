@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CylinderB : MonoBehaviour
 {   
     public delegate void delegateB();
-    public static event delegateB OnCollideB; // static para aplicarlo a todos
+    public static event delegateB OnCollideB;
     public Text texto;
 
     void Start()
@@ -23,7 +23,7 @@ public class CylinderB : MonoBehaviour
     void OnCollisionEnter(Collision other) {
         if (other.gameObject.tag == "Player") {
             transform.localScale *= 1.5f;
-            OnCollideB(); // dispara evento onCollideA al chocar con jugador
+            OnCollideB();
         }
     }
 
