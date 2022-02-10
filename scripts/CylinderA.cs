@@ -28,7 +28,7 @@ public class CylinderA : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "Player")
-            OnCollideA(); // dispara evento onCollideA al chocar con jugador
+            OnCollideA();
     }
 
     void Update() 
